@@ -1,0 +1,5 @@
+.header {
+    @include conversor-relativo-width(width, '%' , 960, 960);
+    padding: 10px;
+    border-bottom: 1px solid $gray;
+}

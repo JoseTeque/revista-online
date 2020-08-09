@@ -1,0 +1,17 @@
+.newsletter {
+    @include conversor-relativo-width(width, '%', 960, 960);
+    background-color: $background-color-newletter;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    clear: left;
+}
+
+.newsletter h2{
+    @include conversor-relativo-font(font-size, rem, $large, $medio);
+    padding: 10px 0;
+}
+
+.newsletter p{
+    padding: 10px 0;
+}

@@ -1,0 +1,41 @@
+.nav {
+    display: inline-block;
+    @include conversor-relativo-width(width, '%', 840, 960);
+    text-align: right;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: $bold;
+    
+}
+
+.nav ul li{
+    list-style: none;
+    margin-right: 5px;
+    text-align: right;
+    display:inline-block;
+}
+
+.nav ul li:last-of-type{
+    margin-right:0
+}
+
+.nav ul li:first-of-type{
+    display:none
+}
+
+.input-menu {
+    border-radius: 30px;
+}
+
+.nav ul li.nav__item_none{
+    display: none !important;
+}
+
+@media (min-width: 992px) {
+    .nav ul li:first-of-type{
+        display: inline-block;
+    }
+}

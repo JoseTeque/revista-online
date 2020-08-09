@@ -1,0 +1,6 @@
+.footer {
+    @include conversor-relativo-width(width, '%', 960, 1280);
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}

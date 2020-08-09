@@ -1,0 +1,11 @@
+
+body {
+    font-family: $monospace;
+    max-width: 1280px;
+    @include conversor-relativo-font(font-size, rem, $medio, $medio)
+}
+
+.contenedor {
+    @include conversor-relativo-width(width, '%', 960, 1280);
+    margin: 0 auto;
+}

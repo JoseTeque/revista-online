@@ -1,0 +1,35 @@
+.listado-izquierdo {
+    @include conversor-relativo-width(width, '%', 220, 960);
+    float: right;
+}
+
+
+.cabecera-listado {
+    @include conversor-relativo-width(width, '%', 220, 220);
+    border-bottom: 1px solid $gray;
+}
+
+.tags {
+    border-bottom: 1px solid $gray;
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tags ul li {
+    padding: 2px 4px;
+    background-color: $steelblue;
+    margin-right: 1px;
+    color: $white;
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+}
+
+.noticias-destacadas img {
+    @include conversor-relativo-width(width, '%', 220, 220);
+    height: 200px;
+}

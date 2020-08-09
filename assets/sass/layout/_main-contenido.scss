@@ -1,0 +1,31 @@
+.main {
+    @include conversor-relativo-width(width, '%', 960, 960);
+    margin: 0 auto;
+    background-color: $white;
+    overflow: auto;
+}
+
+.main__listad-noticias {
+    width: 100%;
+}
+
+
+@media (min-width: 992px) {
+    .main__listad-noticias {
+        float: left;
+    }
+}
+
+.noticias__destacadas-item h4{
+    padding: 10px 0;
+}
+
+.main__listado-izquierdo{
+    display:none;
+}
+
+@media (min-width: 992px) {
+    .main__listado-izquierdo{
+        display:block;
+    }
+}
